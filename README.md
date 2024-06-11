@@ -10,7 +10,10 @@ NOTE: CURRENTLY THIS ONLY WORKS WELL WITH PDFS. YOU CAN UPLOAD IMAGES BUT IT WIL
 1. Clone the repository.
 2. Install the required Python packages:
    ```bash
-   pip install requirements.txt
+	python -m venv vertigas
+	.\vertigas\Scripts\activate
+	pip install -r requirements.txt
+
    ```
 ## Usage
 1. Run the FastAPI application:
